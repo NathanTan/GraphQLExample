@@ -9,16 +9,6 @@ var schema = buildSchema(`
   }
 `);
 
-/* 
- * Example Query: {
-      units {
-        id,
-        name,
-        dps
-      }
-    }
- *
- */
 
 const players = [
   { id: 1, name: "Serral", nationality: "Forginer", race: "Zerg" },
